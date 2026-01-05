@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e8ead28-3dcf-4a38-a10c-abc4d70a0ba0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/Search.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Comment.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/NoResults.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/data.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/seed.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/(root)/(tabs)/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/(tabs)/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(root)/(tabs)/profile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/(tabs)/profile.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/properties/[id].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/properties/[id].tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Cards.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Cards.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/image.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/appwrite.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/appwrite.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +63,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
     &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
     &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\ADMIN\\Desktop\\NATIVE PROJECTS\\real-estate\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
@@ -105,6 +109,11 @@
       <workItem from="1767376874784" duration="21383000" />
       <workItem from="1767520898316" duration="1050000" />
       <workItem from="1767522001489" duration="11117000" />
+      <workItem from="1767550515225" duration="15761000" />
+      <workItem from="1767626732750" duration="973000" />
+      <workItem from="1767628191498" duration="2961000" />
+      <workItem from="1767634932826" duration="4989000" />
+      <workItem from="1767648241919" duration="6076000" />
     </task>
     <servers />
   </component>

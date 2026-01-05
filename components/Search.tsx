@@ -17,6 +17,7 @@ const Search = () => {
 
     const handleSearch = (text: string) => {
         setSearch(text)
+        debouncedSearch(text)
     }
 
     return (
