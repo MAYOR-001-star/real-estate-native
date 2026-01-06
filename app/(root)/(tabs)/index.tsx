@@ -47,7 +47,10 @@ const Home = () => {
         });
     }, [params.filter, params.query]);
 
-    const handleCardPress = (id: string) => router.push(`/properties/${id}`);
+    const handleCardPress = (id: string) => {
+        if (!id) return;
+        router.push(`/properties/${id}`);
+    }
 
     return (
         <SafeAreaView className="h-full bg-white">
