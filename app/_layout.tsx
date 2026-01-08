@@ -1,4 +1,6 @@
-import {useEffect} from "react";
+import 'react-native-gesture-handler';
+import {useCallback} from "react";
+import {View} from "react-native";
 import {Stack} from "expo-router";
 import {useFonts} from "expo-font";
 import * as SplashScreen from "expo-splash-screen";
@@ -18,9 +20,9 @@ export default function RootLayout() {
         "Rubik-SemiBold": require("../assets/fonts/Rubik-SemiBold.ttf"),
     });
 
-    useEffect(() => {
+    const onLayoutRootView = useCallback(async () => {
         if (fontsLoaded) {
-            SplashScreen.hideAsync();
+            await SplashScreen.hideAsync();
         }
     }, [fontsLoaded]);
 
@@ -30,7 +32,9 @@ export default function RootLayout() {
 
     return (
         <GlobalProvider>
-            <Stack screenOptions={{headerShown: false}}/>
+            <View style={{flex: 1}} onLayout={onLayoutRootView}>
+                <Stack screenOptions={{headerShown: false}}/>
+            </View>
         </GlobalProvider>
     );
 }

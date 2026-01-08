@@ -10,11 +10,13 @@ import {Redirect} from "expo-router";
 
 const SignIn = () => {
     const {refetch, loading, isLoggedIn} = useGlobalContext()
+
+    if(!loading && isLoggedIn) return <Redirect href="/"/>
+
     const handleLogin = async () => {
-        if(!loading && isLoggedIn) return <Redirect href="/"/>
         const result = await login()
         if(result){
-            refetch()
+            await refetch()
         }else(
             Alert.alert("Login failed", "Please try again.")
         )

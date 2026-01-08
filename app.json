@@ -8,7 +8,8 @@
     "scheme": "realestate",
     "userInterfaceStyle": "automatic",
     "updates": {
-      "enabled": false
+      "enabled": false,
+      "url": "https://u.expo.dev/5e81de3f-82d5-4d30-a6e2-c885e6a0a30b"
     },
     "ios": {
       "supportsTablet": true
@@ -18,7 +19,7 @@
         "foregroundImage": "./assets/images/icon-doctor.png",
         "backgroundColor": "#E6F4FE"
       },
-      "package": "com.mayorkun.realestate"
+      "package": "com.bama.restate"
     },
     "web": {
       "output": "static",
@@ -63,6 +64,9 @@
       "eas": {
         "projectId": "5e81de3f-82d5-4d30-a6e2-c885e6a0a30b"
       }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
